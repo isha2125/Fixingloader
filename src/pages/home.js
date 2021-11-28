@@ -27,7 +27,7 @@ const Home = () => {
       />
       {videos.length === 0 ? (
         <div className="spinner" >
-         <Spinner animation="border" variant="danger" className="my-auto mx-auto"/>
+         <Spinner animation="border" variant="light" className="my-auto mx-auto"/>
         </div>
       ) : (
         <Row xs={1} md={3} className="g-4">
